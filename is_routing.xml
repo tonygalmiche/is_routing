@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<openerp>
+<data>
+
+
+  <!-- Vue form de la gamme -->
+  <record model="ir.ui.view" id="is_mrp_routing_workcenter_form_view" >
+        <field name="name">is.mrp.routing.workcenter.form</field>
+        <field name="model">mrp.routing.workcenter</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="mrp.mrp_routing_workcenter_form_view" />
+        <field name="arch" type="xml">
+          <!--Suppression du champ cycle_nbr -->
+          <!--
+          <field name="cycle_nbr" position="replace" > 
+          </field>
+          -->
+
+          <field name="hour_nbr" position="replace" > 
+            <field name="seconds_nbr" />
+            <!--<field name="seconds_nbr" on_change="seconds_nbr_change(seconds_nbr)" />-->
+            <!--<field name="hour_nbr" />-->
+            <!--<field name="hour_nbr"    on_change="hour_nbr_change(hour_nbr)" /> -->
+          </field>
+         </field>
+    </record>    
+ 
+  <!-- Vue tree de la gamme -->
+  <record model="ir.ui.view" id="is_mrp_routing_workcenter_tree_view" >
+        <field name="name">is.mrp.routing.workcenter.tree</field>
+        <field name="model">mrp.routing.workcenter</field>
+        <field name="type">tree</field>
+        <field name="inherit_id" ref="mrp.mrp_routing_workcenter_tree_view" />
+        <field name="arch" type="xml">
+          <field name="cycle_nbr" position="after" > 
+            <field name="seconds_nbr" /> 
+          </field>
+         </field>
+    </record>    
+
+
+  <!-- Action pour accèder aux lignes des gammes pour l'importation -->
+  <record model="ir.actions.act_window" id="action_is_mrp_routing_workcenter">
+  <field name="name">Moule action 1</field>
+  <field name="res_model">mrp.routing.workcenter</field>
+  <field name="view_type">form</field>
+  <field name="view_mode">tree,form</field>
+  </record>
+
+  <!-- Menu pour accèder aux lignes des gammes -->
+  <menuitem id="menu_is_mrp_routing_workcenter" sequence="10" name="Opérations des gammes" parent="mrp.menu_mrp_routing_action" action="action_is_mrp_routing_workcenter" />
+
+</data>
+</openerp>

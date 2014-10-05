@@ -1,0 +1,579 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* infosaone_plastigray
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20130320-002355\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-29 09:04+0000\n"
+"PO-Revision-Date: 2013-04-29 09:04+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: infosaone_plastigray
+#: field:product.product,delai_reapro:0
+msgid "Délai de réapro"
+msgstr "Délai de réapro"
+
+#. module: infosaone_plastigray
+#: view:product.pricelist.item:0
+msgid "Fournisseur"
+msgstr "Fournisseur"
+
+#. module: infosaone_plastigray
+#: view:product.product:0
+msgid "Coût"
+msgstr "Coût"
+
+#. module: infosaone_plastigray
+#: field:product.product,unite_ut:0
+msgid "Unité de transport (UT)"
+msgstr "Unité de transport (UT)"
+
+#. module: infosaone_plastigray
+#: field:product.product,ref_plan:0
+msgid "Référence plan"
+msgstr "Référence plan"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_divers
+msgid "Divers"
+msgstr "Divers"
+
+#. module: infosaone_plastigray
+#: view:product.product:0
+msgid "Unit of Measure"
+msgstr "Unité de mesure"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_mvt_stock
+msgid "Mouvements de stocks"
+msgstr "Mouvements de stocks"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_creation_article
+msgid "Création article"
+msgstr "Création article"
+
+#. module: infosaone_plastigray
+#: field:product.product,code_client:0
+msgid "Code client"
+msgstr "Code client"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_categorie
+msgid "Catégories"
+msgstr "Catégories"
+
+#. module: infosaone_plastigray
+#: field:product.product,unite_stock:0
+msgid "Unité de stock (US)"
+msgstr "Unité de stock (US)"
+
+#. module: infosaone_plastigray
+#: view:product.product:0
+msgid "999999Z"
+msgstr "999999Z"
+
+#. module: infosaone_plastigray
+#: field:product.product,num_cde_ouverte:0
+msgid "N°commande ouverte"
+msgstr "N°commande ouverte"
+
+#. module: infosaone_plastigray
+#: help:product.product,coef_um_ut:0
+msgid "Nombre d'UM dans une UT"
+msgstr "Nombre d'UM dans une UT"
+
+#. module: infosaone_plastigray
+#: model:ir.actions.act_window,name:infosaone_plastigray.plastigray_creation_article
+msgid "Création Article"
+msgstr "Création Article"
+
+#. module: infosaone_plastigray
+#: model:ir.model,name:infosaone_plastigray.model_plastics_mold
+msgid "plastics.mold"
+msgstr "plastics.mold"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_liste_fournisseurs
+msgid "Liste des fournisseurs"
+msgstr "Liste des fournisseurs"
+
+#. module: infosaone_plastigray
+#: field:product.product,magazin:0
+msgid "Magazin"
+msgstr "Magazin"
+
+#. module: infosaone_plastigray
+#: help:product.product,famille:0
+msgid "Sélectionnez une famille"
+msgstr "Sélectionnez une famille"
+
+#. module: infosaone_plastigray
+#: view:product.product:0
+msgid "Products"
+msgstr "Articles"
+
+#. module: infosaone_plastigray
+#: field:product.product,type_eti_galia:0
+msgid "Type d'étiquette Galia"
+msgstr "Type d'étiquette Galia"
+
+#. module: infosaone_plastigray
+#: view:product.pricelist.item:0
+msgid "Séquence >= 10098"
+msgstr "Séquence >= 10098"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_stock_emplacement
+msgid "Stock par emplacement"
+msgstr "Stock par emplacement"
+
+#. module: infosaone_plastigray
+#: field:product.product,stock_maxi:0
+msgid "Stock maxi"
+msgstr "Stock maxi"
+
+#. module: infosaone_plastigray
+#: field:product.product,indice_plan:0
+msgid "Indice Plan"
+msgstr "Indice Plan"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_plastigray_action30
+msgid "product_normal_action"
+msgstr "product_normal_action"
+
+#. module: infosaone_plastigray
+#: field:product.product,lot_reapro:0
+msgid "Lot de réapro"
+msgstr "Lot de réapro"
+
+#. module: infosaone_plastigray
+#: field:product.product,piece_sr:0
+msgid "Pièce Sécu/Regl"
+msgstr "Pièce Sécu/Regl"
+
+#. module: infosaone_plastigray
+#: field:product.product,cout_act_mach:0
+msgid "Coût actualisé machine"
+msgstr "Coût actualisé machine"
+
+#. module: infosaone_plastigray
+#: help:product.product,coef_uc_um:0
+msgid "Nombre d'UC dans une UM"
+msgstr "Nombre d'UC dans une UM"
+
+#. module: infosaone_plastigray
+#: field:product.product,plan_aqf:0
+msgid "Plan AQF"
+msgstr "Plan AQF"
+
+#. module: infosaone_plastigray
+#: field:product.product,piece_gd:0
+msgid "Pièce Gauche/Droite"
+msgstr "Pièce Gauche/Droite"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_pricelist
+msgid "Liste de prix"
+msgstr "Liste de prix"
+
+#. module: infosaone_plastigray
+#: field:product.product,coef_uc_um:0
+msgid "Coef UC / UM"
+msgstr "Coef UC / UM"
+
+#. module: infosaone_plastigray
+#: field:product.product,coef_um_ut:0
+msgid "Coef UT / UM"
+msgstr "Coef UT / UM"
+
+#. module: infosaone_plastigray
+#: help:product.product,coef_us_ua:0
+msgid "Nombre d'US dans une UA"
+msgstr "Nombre d'US dans une UA"
+
+#. module: infosaone_plastigray
+#: help:product.product,coef_us_uc:0
+msgid "Nombre d'US dans une UC"
+msgstr "Nombre d'US dans une UC"
+
+#. module: infosaone_plastigray
+#: sql_constraint:plastics.mold:0
+msgid "Ce moule existe deja"
+msgstr "Ce moule existe déjà (Test traduction : é€à@)"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_plastigray_action70
+msgid "product_category_action"
+msgstr "product_category_action"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_tarif
+msgid "Tarifs"
+msgstr "Tarifs"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_inventaire
+msgid "Inventaires"
+msgstr "Inventaires"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_creation_moule
+msgid "Création moule"
+msgstr "Création moule"
+
+#. module: infosaone_plastigray
+#: field:product.product,cout_act_mat:0
+msgid "Coût actualisé matière"
+msgstr "Coût actualisé matière"
+
+#. module: infosaone_plastigray
+#: view:product.pricelist.item:0
+#: view:product.product:0
+msgid "Article"
+msgstr "Article"
+
+#. module: infosaone_plastigray
+#: field:product.product,specif_interne:0
+msgid "Spécification interne"
+msgstr "Spécification interne"
+
+#. module: infosaone_plastigray
+#: view:plastics.mold:0
+msgid "1 empreinte"
+msgstr "1 empreinte"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_liste_moules
+msgid "Liste des Moules"
+msgstr "Liste des Moules"
+
+#. module: infosaone_plastigray
+#: view:product.pricelist.item:0
+msgid "Items"
+msgstr "Items"
+
+#. module: infosaone_plastigray
+#: view:stock.inventory.line:0
+msgid "Tree"
+msgstr "Tree"
+
+#. module: infosaone_plastigray
+#: view:plastics.mold:0
+#: field:plastics.mold,empreinte:0
+msgid "Empreinte"
+msgstr "Empreinte"
+
+#. module: infosaone_plastigray
+#: field:product.product,version_moule:0
+msgid "Version moule"
+msgstr "Version moule"
+
+#. module: infosaone_plastigray
+#: view:product.product:0
+msgid "Extra"
+msgstr "Extra"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_achats
+msgid "Achats"
+msgstr "Achats"
+
+#. module: infosaone_plastigray
+#: field:product.product,adr_liv_cli:0
+msgid "Adresse livraison client"
+msgstr "Adresse livraison client"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_nomenclature
+msgid "Nomenclatures"
+msgstr "Nomenclatures"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_plastigray_action80
+msgid "Article peut-être acheté"
+msgstr "Article peut-être acheté"
+
+#. module: infosaone_plastigray
+#: model:ir.actions.act_window,name:infosaone_plastigray.infosaone_pricelist_items_action
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_pricelist_items
+msgid "Liste de prix - Items"
+msgstr "Liste de prix - Items"
+
+#. module: infosaone_plastigray
+#: view:plastics.mold:0
+msgid "4 empreintes"
+msgstr "4 empreintes"
+
+#. module: infosaone_plastigray
+#: field:product.product,cout_std_st:0
+msgid "Coût standard ST"
+msgstr "Coût standard ST"
+
+#. module: infosaone_plastigray
+#: field:product.product,unite_um:0
+msgid "Unité de manutention (UM)"
+msgstr "Unité de manutention (UM)"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_liste_nomenclatures
+msgid "Liste des nomenclatures"
+msgstr "Liste des nomenclatures"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_ligne_inventaire
+msgid "lignes d'inventaires"
+msgstr "lignes d'inventaires"
+
+#. module: infosaone_plastigray
+#: view:product.product:0
+msgid "Identification"
+msgstr "Identification"
+
+#. module: infosaone_plastigray
+#: field:product.product,coef_us_uc:0
+msgid "Coef US / UC"
+msgstr "Coef US / UC"
+
+#. module: infosaone_plastigray
+#: field:product.product,cout_std_mat:0
+msgid "Coût standard matière"
+msgstr "Coût standard matière"
+
+#. module: infosaone_plastigray
+#: model:ir.actions.act_window,name:infosaone_plastigray.plastigray_liste_article
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_liste_articles
+msgid "Liste des articles"
+msgstr "Liste des articles"
+
+#. module: infosaone_plastigray
+#: field:product.product,coef_us_ua:0
+msgid "Coef US / UA"
+msgstr "Coef US / UA"
+
+#. module: infosaone_plastigray
+#: model:ir.actions.act_window,name:infosaone_plastigray.plastics_mold_action
+msgid "Moule action 1"
+msgstr "Moule action 1"
+
+#. module: infosaone_plastigray
+#: model:ir.actions.act_window,name:infosaone_plastigray.plastics_mold_action2
+msgid "Moule action 2"
+msgstr "Moule action 2"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_stock
+msgid "Stocks"
+msgstr "Stocks"
+
+#. module: infosaone_plastigray
+#: field:product.product,cout_std_mo:0
+msgid "Coût standard MO"
+msgstr "Coût standard MO"
+
+#. module: infosaone_plastigray
+#: model:ir.actions.act_window,name:infosaone_plastigray.is_inventory_line_action
+msgid "Lignes d'inventaire"
+msgstr "Lignes d'inventaire"
+
+#. module: infosaone_plastigray
+#: field:product.product,cout_std_total:0
+msgid "Coût standard total"
+msgstr "Coût standard total"
+
+#. module: infosaone_plastigray
+#: sql_constraint:product.product:0
+msgid "Ce code existe deja"
+msgstr "Ce code existe déjà"
+
+#. module: infosaone_plastigray
+#: view:plastics.mold:0
+#: view:product.pricelist.item:0
+msgid "Regrouper par..."
+msgstr "Regrouper par..."
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_categories_articles
+msgid "Catégories des articles"
+msgstr "Catégories des articles"
+
+#. module: infosaone_plastigray
+#: field:plastics.mold,name:0
+msgid "Code"
+msgstr "Code"
+
+#. module: infosaone_plastigray
+#: field:product.product,cout_act_mo:0
+msgid "Coût actualisé MO"
+msgstr "Coût actualisé MO"
+
+#. module: infosaone_plastigray
+#: view:product.product:0
+msgid "Stockage"
+msgstr "Stockage"
+
+#. module: infosaone_plastigray
+#: model:ir.model,name:infosaone_plastigray.model_product_pricelist_item
+msgid "Pricelist item"
+msgstr "Élément de la liste de prix"
+
+#. module: infosaone_plastigray
+#: field:product.product,seuil_reapro:0
+msgid "Seuil de réapro"
+msgstr "Seuil de réapro"
+
+#. module: infosaone_plastigray
+#: view:product.pricelist.item:0
+msgid "Prix > 1"
+msgstr "Prix > 1"
+
+#. module: infosaone_plastigray
+#: view:plastics.mold:0
+msgid "2 empreintes"
+msgstr "2 empreintes"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_donnees_techniques
+msgid "Données techniques"
+msgstr "Données techniques"
+
+#. module: infosaone_plastigray
+#: field:product.product,stock_secu:0
+msgid "Stock sécu"
+msgstr "Stock sécu"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_fournisseur
+msgid "Fournisseurs"
+msgstr "Fournisseurs"
+
+#. module: infosaone_plastigray
+#: field:product.product,delai_cq:0
+msgid "Délai CQ"
+msgstr "Délai CQ"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_moule
+msgid "Moules"
+msgstr "Moules"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_plastigray_sous_menu
+msgid "Autres listes"
+msgstr "Autres listes"
+
+#. module: infosaone_plastigray
+#: view:plastics.mold:0
+#: field:product.product,moule:0
+msgid "Moule"
+msgstr "Moule"
+
+#. module: infosaone_plastigray
+#: model:ir.model,name:infosaone_plastigray.model_product_product
+msgid "Product"
+msgstr "Article"
+
+#. module: infosaone_plastigray
+#: field:product.product,cout_act_total:0
+msgid "Coût actualisé total"
+msgstr "Coût actualisé total"
+
+#. module: infosaone_plastigray
+#: help:product.product,moule:0
+msgid "Sélectionnez un moule"
+msgstr "Sélectionnez un moule"
+
+#. module: infosaone_plastigray
+#: field:product.product,cout_std_mach:0
+msgid "Coût standard machine"
+msgstr "Coût standard machine"
+
+#. module: infosaone_plastigray
+#: field:product.product,famille_matiere:0
+msgid "Famille matière"
+msgstr "Famille matière"
+
+#. module: infosaone_plastigray
+#: view:product.product:0
+msgid "Unités"
+msgstr "Unités"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_article
+msgid "Articles"
+msgstr "Articles"
+
+#. module: infosaone_plastigray
+#: view:product.pricelist.item:0
+msgid "Recherche"
+msgstr "Recherche"
+
+#. module: infosaone_plastigray
+#: field:product.product,unite_uc:0
+msgid "Unité de conditionnement (UC)"
+msgstr "Unité de conditionnement (UC)"
+
+#. module: infosaone_plastigray
+#: field:product.product,pourcentage_perte:0
+msgid "Pourcentage de perte"
+msgstr "Pourcentage de perte"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_plastigray_action90
+msgid "Article peut-être vendu"
+msgstr "Article peut-être vendu"
+
+#. module: infosaone_plastigray
+#: field:product.product,unite_achat:0
+msgid "Unité d'achat (UA)"
+msgstr "Unité d'achat (UA)"
+
+#. module: infosaone_plastigray
+#: field:product.product,cout_act_st:0
+msgid "Coût actualisé ST"
+msgstr "Coût actualisé ST"
+
+#. module: infosaone_plastigray
+#: field:product.product,piece_aqp:0
+msgid "Pièce en AQP"
+msgstr "Pièce en AQP"
+
+#. module: infosaone_plastigray
+#: model:ir.ui.menu,name:infosaone_plastigray.menu_is_pricelist_version
+msgid "Liste de prix - Version"
+msgstr "Liste de prix - Version"
+
+#. module: infosaone_plastigray
+#: view:plastics.mold:0
+msgid "Recherche Moule"
+msgstr "Recherche Moule"
+
+#. module: infosaone_plastigray
+#: field:product.product,categorie_abc:0
+msgid "Catégorie ABC"
+msgstr "Catégorie ABC"
+
+#. module: infosaone_plastigray
+#: view:plastics.mold:0
+msgid "Mold"
+msgstr "Mold"
+
+#. module: infosaone_plastigray
+#: field:product.product,famille:0
+msgid "Famille"
+msgstr "Famille"
+
+#. module: infosaone_plastigray
+#: field:plastics.mold,designation:0
+#: view:product.product:0
+msgid "Désignation"
+msgstr "Désignation"
+
